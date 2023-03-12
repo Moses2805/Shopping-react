@@ -64,7 +64,7 @@ export const CartProvider = ({ children }) => {
             if (findItem === -1) {
 
 
-                item.price = item.price * item.amount
+                item.price = (item.price * item.amount).toFixed(2)
 
                 item.price = "$" + item.price
 
@@ -76,7 +76,7 @@ export const CartProvider = ({ children }) => {
 
                 findClickedElement.price = Number(findClickedElement.price.slice(1))
 
-                findClickedElement.price = item.price * findClickedElement.amount;
+                findClickedElement.price = (item.price * findClickedElement.amount).toFixed(2);
                 findClickedElement.price = "$" + findClickedElement.price
 
                 setCartItems([...cartItems])
