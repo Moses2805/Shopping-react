@@ -15,7 +15,7 @@ const Header = ({adding, modal, setModal}) => {
                         </div>
 
                         <div className='col-xl-2 col-lg-3 col-6 mt-4'>
-                            <div className="addingAmount d-flex justify-content-evenly align-items-center" onClick={() => setModal(!modal)}>
+                            <div className="addingAmount d-flex justify-content-evenly align-items-center" onClick={() => updateModal()}>
                                 <HiShoppingCart className='shop-icon' />
                                 <span>Your Card</span>
                                 <div className='addingCount'>
