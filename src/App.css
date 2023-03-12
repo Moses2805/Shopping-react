@@ -110,6 +110,10 @@ main .container .row .addingArea .amountArea .btn{
   border-radius: 50%;
 }
 
+.popUpBox .amount p{
+  color: #F67280;
+}
+
 .popUpBox h5{
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
