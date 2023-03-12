@@ -110,7 +110,7 @@ main .container .row .addingArea .amountArea .btn{
   border-radius: 50%;
 }
 
-.popUpBox .amount p{
+.priceModal{
   color: #F67280;
 }
 
