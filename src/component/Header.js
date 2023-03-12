@@ -2,7 +2,7 @@ import React from 'react'
 import { HiShoppingCart } from "react-icons/hi"
 
 
-const Header = ({adding, modal, setModal}) => {
+const Header = ({adding, modal, setModal, updateModal}) => {
     return (
         <div>
             <header>
