@@ -17,7 +17,7 @@ const ModalItem = ({ name, amount, setAdding, inc, dec, price }) => {
       </div>
 
       <div className="col-3">
-      <p>{price}</p>
+      <p className="priceModal">{price}</p>
 
       </div>
 
